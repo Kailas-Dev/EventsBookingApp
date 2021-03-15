@@ -1,0 +1,241 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Stronghold",
+      "topic": "cnormansell0",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Dubravica",
+      "contactPerson": "Claybourne",
+      "mobile": "637-816-5807",
+      "isEventDisabled": false
+    },
+    {
+      "id": 2,
+      "name": "Konklux",
+      "topic": "mboldry1",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Nanfeng",
+      "contactPerson": "Melicent",
+      "mobile": "957-147-9423"
+    },
+    {
+      "id": 3,
+      "name": "Zontrax",
+      "topic": "eamorts2",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Hŭngnam",
+      "contactPerson": "Elle",
+      "mobile": "783-518-7372"
+    },
+    {
+      "id": 4,
+      "name": "Cardguard",
+      "topic": "abewick3",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Fengle",
+      "contactPerson": "Aluino",
+      "mobile": "757-439-2140"
+    },
+    {
+      "id": 5,
+      "name": "Fixflex",
+      "topic": "lburgher4",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Sonquil",
+      "contactPerson": "Luis",
+      "mobile": "395-400-6599"
+    },
+    {
+      "id": 6,
+      "name": "Gembucket",
+      "topic": "rheap5",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Jarocin",
+      "contactPerson": "Rriocard",
+      "mobile": "611-468-8733"
+    },
+    {
+      "id": 7,
+      "name": "Regrant",
+      "topic": "okinghorne6",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Paritaman",
+      "contactPerson": "Olav",
+      "mobile": "833-761-4996"
+    },
+    {
+      "id": 8,
+      "name": "Konklux",
+      "topic": "uvannikov7",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Prachamtakham",
+      "contactPerson": "Ulrica",
+      "mobile": "355-531-9450"
+    },
+    {
+      "id": 9,
+      "name": "Aerified",
+      "topic": "asurcomb8",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Shu",
+      "contactPerson": "Audie",
+      "mobile": "251-508-8768"
+    },
+    {
+      "name": "Kailas",
+      "topic": "Football",
+      "startDate": "09/03/2021",
+      "endDate": "10/03/2021",
+      "place": "Pune",
+      "contactPerson": "Ram",
+      "mobile": "8967453256",
+      "id": 10
+    },
+    {
+      "name": "Rock",
+      "topic": "cricket",
+      "startDate": "2/9/2021",
+      "endDate": "3/9/2021",
+      "place": "Goa",
+      "contactPerson": "Tom",
+      "mobile": "9087563412",
+      "id": 11
+    },
+    {
+      "name": "Tom",
+      "topic": "Badminton",
+      "startDate": "31/01/2021",
+      "endDate": "28/02/2021",
+      "place": "Mumbai",
+      "contactPerson": "Satish",
+      "mobile": "9807654578",
+      "id": 12
+    },
+    {
+      "name": "Strong",
+      "topic": "cnormansell0",
+      "startDate": "3/7/2020",
+      "endDate": "3/7/2021",
+      "place": "Dubravica",
+      "contactPerson": "Claybourne",
+      "mobile": "637-816-5807",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "userName": "ram",
+      "email": "a",
+      "password": "1",
+      "id": 1
+    },
+    {
+      "userName": "p",
+      "email": "p@p.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "userName": "ram",
+      "email": "a@a.com",
+      "password": "12121",
+      "id": 3
+    },
+    {
+      "userName": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "userName": "tam",
+      "email": "b@b.com",
+      "password": "b",
+      "id": 5
+    },
+    {
+      "userName": "as",
+      "email": "a",
+      "password": "a",
+      "id": 6
+    },
+    {
+      "userName": "a",
+      "email": "aa",
+      "password": "a",
+      "id": 7
+    },
+    {
+      "userName": "a",
+      "email": "a",
+      "password": "a",
+      "id": 8
+    }
+  ],
+  "registerevent": [
+    {
+      "userName": "Ram",
+      "address": "pune",
+      "adharNumber": "12221",
+      "mobile": "21222",
+      "eventName": "cricket",
+      "id": 1
+    },
+    {
+      "userName": "Shyam",
+      "address": "Mumbai",
+      "adharNumber": "23415",
+      "mobile": "24567",
+      "eventName": "badminton",
+      "id": 2
+    },
+    {
+      "userName": "Kailas",
+      "address": "Pune",
+      "adharNumber": "313333333311",
+      "mobile": "313133",
+      "eventName": "Cardguard",
+      "id": 3
+    },
+    {
+      "userName": "Tom11",
+      "address": "Goa",
+      "adharNumber": "122112121221",
+      "mobile": "1222",
+      "eventName": "Stronghold",
+      "id": 4
+    },
+    {
+      "userName": "adaad",
+      "address": "a",
+      "adharNumber": "122222222221",
+      "mobile": "1",
+      "eventName": "Stronghold",
+      "id": 5
+    }
+  ],
+  "registerUser": [
+    {
+      "userName": "aaaaa",
+      "email": "aa",
+      "password": "aaaaa",
+      "id": 1
+    },
+    {
+      "userName": "kailas",
+      "email": "a@a.com",
+      "password": "kailas",
+      "id": 2
+    }
+  ]
+}

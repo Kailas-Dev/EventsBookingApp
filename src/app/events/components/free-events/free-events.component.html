@@ -1,0 +1,78 @@
+<div class="container">
+<div class="row">
+  
+    <div class="col-md-4 mt-3">
+      <nav class="navbar">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter the text to search..."
+          name="filterTerm"
+          [(ngModel)]="filterTerm"
+          (ngModelChange)="search()"
+        />
+      </nav>
+      <br />
+    </div>
+ 
+
+  <table class="table table-bordered ml-3">
+    <thead>
+      <tr>
+        <th (click)="sort('id')">Id&nbsp;<i class="fa fa-sort"></i></th>
+        <th (click)="sort('name')">Event Name&nbsp;<i class="fa fa-sort"></i></th>
+        <th (click)="sort('topic')">Event Topic&nbsp;<i class="fa fa-sort"></i></th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th (click)="sort('place')">Place&nbsp;<i class="fa fa-sort"></i></th>
+        <th>Contact</th>
+        <th>Mobile</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="
+          let event of collection
+          | filter: filterTerm
+          | orderBy: key : reverse
+          | paginate
+          : {
+              id: 'listing_pagination',
+              itemsPerPage: 5,
+              currentPage: page,
+              totalItems: totalRecords
+            }
+    "
+      >
+        <td>{{ event.id }}</td>
+        <td>{{ event.name }}</td>
+        <td>{{ event.topic }}</td>
+        <td>{{ event.startDate }}</td>
+        <td>{{ event.endDate }}</td>
+        <td>{{ event.place }}</td>
+        <td>{{ event.contactPerson }}</td>
+        <td>{{ event.mobile }}</td>
+        <td>
+          <a [routerLink]="['/events', 'register-events', event.name]">
+            <i
+              class="fa fa-registered"
+              style="font-size: 25px; color: rgb(58, 33, 170); cursor: pointer"
+            ></i>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+    <div>
+        <pagination-controls
+          id="listing_pagination"
+          maxSize="5"
+          directionLinks="true"
+          (pageChange)="page = $event"
+        ></pagination-controls>
+      </div>
+</div>
+</div>
+
+
